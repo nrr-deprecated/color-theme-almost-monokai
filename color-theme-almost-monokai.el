@@ -30,6 +30,7 @@
 ; Code start.
 (defun color-theme-almost-monokai ()
   (interactive)
+  (color-theme-reset-faces)
   (color-theme-install
    '(color-theme-almost-monokai
      ((background-color . "#272821")
